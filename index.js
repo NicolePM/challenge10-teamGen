@@ -235,7 +235,7 @@ const generateHTML = () => {
 
 //add intern card html
 const generateIntern = (intern) => {
-    return `<div class="wrapper">
+    return `
     <div class="card">
     <div class="card-header"><p>${intern.name}</p><i class="material-icons">school</i>Intern</div>
     <div class="card-main">
@@ -251,7 +251,7 @@ const generateIntern = (intern) => {
 
 //add engineer card html
 const generateEng = (engineer) => {
-    return `<div class="wrapper">
+    return `
             <div class="card">
             <div class="card-header"><p>${engineer.name}</p><i class="material-icons">people</i>Engineer-FTE</div>
             <div class="card-main">
@@ -261,8 +261,7 @@ const generateEng = (engineer) => {
                 <p>Role: ${engineer.role}</p>
                 <p>Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
             </div>
-            </div></div>
-            </div>`
+            </div></div>`
 }
 
  //add manager card html
@@ -277,8 +276,7 @@ const generateMgr = (manager) => {
                 <p>Role: ${manager.role}</p>
                 <p>Office Number: ${manager.officeNumber}</p>
                 </div>
-                </div></div>
-                </div>`
+                </div></div>`
 }
 
 //add bottom of html doc
