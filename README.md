@@ -14,7 +14,8 @@ Not deployed to website.  Video walkthrough provided below.
 * API- OpenWeather & Google
 * Javascript
 
- ## Usage
+ ## Usage/ Demonstration
+ https://watch.screencastify.com/v/pLhQG7kLcMUd5was9TMk
 
  ## Contributors
  Made with ❤️ by Nicole Mitchell
