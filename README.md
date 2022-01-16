@@ -13,7 +13,7 @@ Not deployed to website.  Video walkthrough provided below.
  
 ## Built With
 * HTML/CSS
-* API- OpenWeather & Google
+* node.js
 * Javascript
 
  ## Usage/ Demonstration
